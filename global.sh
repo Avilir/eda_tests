@@ -4,22 +4,22 @@
 USER="perfuser"
 
 # The password need to be set localy only and not push to the repo.
-PASS="<change me>"
+PASS="100yard-"
 
 # The AAP administrator credential
 ADMIN_USER="admin"
 
 # The password need to be set localy only and not push to the repo.
-ADMIN_PASS="<change me>"
+ADMIN_PASS="KaSio__R2x4Y_R4m"
 
 # The test time in Minuts
-TEST_TIME=120
+TEST_TIME=2
 
 # Events per seconds
-EVPSEC=5
+EVPSEC=20
 
 # Jobs per minute
-JPM=1
+JPM=2
 
 # when testing SaaS - on ly the cluster name is changed between different deployments
 Cluster_name="8b3l6r"
@@ -48,7 +48,8 @@ Base_API="eda-event-streams/api/eda/v1/external_event_stream"
 
 # The uuid of event streams URL in the EDA - need to be update for every new ES which created.
 #EES_array=("42dbece1-5fb6-4830-b2c8-0ddb5d63ddce" "2865a9c1-2d4b-47da-aaef-138052063c9e" "872bfb8d-6470-4b19-978e-41e0aa7ca315" "f5bd3e0b-c241-4e48-81fd-0ca4bdb781be" "59cffaa1-cc11-4c2d-8823-ea77926476a9" "6e992d16-ce75-4c96-b283-9eaa69e5e060")
-EES_array=("42dbece1-5fb6-4830-b2c8-0ddb5d63ddce" "2865a9c1-2d4b-47da-aaef-138052063c9e" "872bfb8d-6470-4b19-978e-41e0aa7ca315")
+EES_array=("f5bd3e0b-c241-4e48-81fd-0ca4bdb781be" "59cffaa1-cc11-4c2d-8823-ea77926476a9" "6e992d16-ce75-4c96-b283-9eaa69e5e060")
+#EES_array=("42dbece1-5fb6-4830-b2c8-0ddb5d63ddce" "2865a9c1-2d4b-47da-aaef-138052063c9e" "872bfb8d-6470-4b19-978e-41e0aa7ca315")
 
 
 # calculate the number of event to send as factor of test runtime + 2 minutes
