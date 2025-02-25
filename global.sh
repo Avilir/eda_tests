@@ -4,13 +4,13 @@
 USER="perfuser"
 
 # The password need to be set localy only and not push to the repo.
-PASS="100yard-"
+PASS="<change me>"
 
 # The AAP administrator credential
 ADMIN_USER="admin"
 
 # The password need to be set localy only and not push to the repo.
-ADMIN_PASS="KaSio__R2x4Y_R4m"
+ADMIN_PASS="<change me>"
 
 # The test time in Minuts
 TEST_TIME=2
@@ -47,9 +47,12 @@ Base_API="eda-event-streams/api/eda/v1/external_event_stream"
 ((JPM_Sleep=60/${JPM}))
 
 # The uuid of event streams URL in the EDA - need to be update for every new ES which created.
-#EES_array=("42dbece1-5fb6-4830-b2c8-0ddb5d63ddce" "2865a9c1-2d4b-47da-aaef-138052063c9e" "872bfb8d-6470-4b19-978e-41e0aa7ca315" "f5bd3e0b-c241-4e48-81fd-0ca4bdb781be" "59cffaa1-cc11-4c2d-8823-ea77926476a9" "6e992d16-ce75-4c96-b283-9eaa69e5e060")
-EES_array=("f5bd3e0b-c241-4e48-81fd-0ca4bdb781be" "59cffaa1-cc11-4c2d-8823-ea77926476a9" "6e992d16-ce75-4c96-b283-9eaa69e5e060")
+
+# Event streams 1/2/3
 #EES_array=("42dbece1-5fb6-4830-b2c8-0ddb5d63ddce" "2865a9c1-2d4b-47da-aaef-138052063c9e" "872bfb8d-6470-4b19-978e-41e0aa7ca315")
+
+# Event streams 4/5/6
+EES_array=("f5bd3e0b-c241-4e48-81fd-0ca4bdb781be" "59cffaa1-cc11-4c2d-8823-ea77926476a9" "6e992d16-ce75-4c96-b283-9eaa69e5e060")
 
 
 # calculate the number of event to send as factor of test runtime + 2 minutes
